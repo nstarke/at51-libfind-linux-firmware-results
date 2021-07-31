@@ -1,0 +1,3 @@
+Address | Name                 | Description
+0x047a    ?C?PSTXDATA            general pointer store to xdata
+0x048c    ?C?PLDXDATA            general pointer load from xdata

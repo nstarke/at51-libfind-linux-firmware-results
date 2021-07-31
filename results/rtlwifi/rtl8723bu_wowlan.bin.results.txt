@@ -1,0 +1,16 @@
+Address | Name                 | Description
+0x02b0    ?C?LADD                long (32-bit) addition
+0x02bd    ?C?LSUB                long (32-bit) subtraction
+0x02cb    ?C?LMUL                long (32-bit) multiply
+0x0356    ?C?ULDIV               unsigned long (32-bit) division
+0x03e8    ?C?LAND                long (32-bit) bitwise and
+0x03f5    ?C?LOR                 long (32-bit) bitwise or
+0x0402    ?C?ULCMP               unsigned long (32-bit) compare
+0x0413    ?C?LLDXDATA            long (32-bit) load from xdata
+0x041f    ?C?LLDXDATA0           long (32-bit) load from xdata into r3-r0
+0x042b    ?C?OFFXADD            
+0x0437    ?C?PLDXDATA            general pointer load from xdata
+0x0440    ?C?PSTXDATA            general pointer store to xdata
+0x0449    ?C?CCASE              
+0x0900   [?C_START]             
+0x46d6   (MAIN)                 

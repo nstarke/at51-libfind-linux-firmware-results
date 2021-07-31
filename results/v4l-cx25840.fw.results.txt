@@ -1,0 +1,43 @@
+Address | Name                 | Description
+0x000e   (MAIN)                 
+0x1074    ?C?FPMUL               float multiply
+0x11e7    ?C?FCASTL             
+0x11ec    ?C?FCASTI             
+0x11f1    ?C?FCASTC             
+0x1225    ?C?FPGETOPN2          
+0x123c    ?C?FPRESULT           
+0x1250    ?C?FPRESULT2          
+0x125a    ?C?FPNANRESULT        
+0x1261    ?C?FPUNDERFLOW        
+0x1264    ?C?FPOVERFLOW         
+0x126f    ?C?CLDPTR              char (8-bit) load from general pointer
+0x1288    ?C?CLDOPTR             char (8-bit) load from general pointer with offset
+0x12b5    ?C?CSTPTR              char (8-bit) store to general pointer
+0x12c7    ?C?CSTOPTR             char (8-bit) store to general pointer with offset
+0x12e9    ?C?IILDX              
+0x12ff    ?C?ILDPTR              int (16-bit) load from general pointer
+0x132a    ?C?LADD                long (32-bit) addition
+0x1337    ?C?LMUL                long (32-bit) multiply
+0x13c2    ?C?ULDIV               unsigned long (32-bit) division
+0x1454    ?C?LNEG                long (32-bit) negation
+0x1462    ?C?ULCMP               unsigned long (32-bit) compare
+0x1473    ?C?ULSHR               unsigned long (32-bit) shift right
+0x1486    ?C?LLDPTR              long (32-bit) load from general pointer
+0x14a6    ?C?LLDXDATA            long (32-bit) load from xdata
+0x14b2    ?C?LLDXDATA0           long (32-bit) load from xdata into r3-r0
+0x14be    ?C?LSTXDATA            long (32-bit) store to xdata
+0x14ca    ?C?LSTKXDATA           long (32-bit) constant store to xdata
+0x14fb    ?C?OFFXADD            
+0x1507    ?C?PLDXDATA            general pointer load from xdata
+0x1510    ?C?PLDIXDATA          
+0x1527    ?C?PILDXDATA           general pointer pre-increment load from xdata
+0x153e    ?C?PSTXDATA            general pointer store to xdata
+0x1547    ?C?PLDPTR              general pointer load from general pointer
+0x1567    ?C?CCASE              
+0x158d    ?C?LLDIDATA            long (32-bit) load from idata (indirect ram access)
+0x1599    ?C?LLDPDATA            long (32-bit) load from pdata (external ram)
+0x15a5    ?C?LLDCODE             long (32-bit) load from code space
+0x15b5    ?C?PLDIDATA            general pointer load from idata (indirect ram access)
+0x15be    ?C?PLDPDATA            general pointer load from pdata (external ram)
+0x15c7    ?C?PLDCODE             general pointer load from code space
+0x2c3b   [?C_START]             

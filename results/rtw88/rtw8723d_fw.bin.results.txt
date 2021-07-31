@@ -1,0 +1,12 @@
+Address | Name                 | Description
+0x05c9    ?C?LADD                long (32-bit) addition
+0x05d6    ?C?LSUB                long (32-bit) subtraction
+0x05e4    ?C?LMUL                long (32-bit) multiply
+0x0633    ?C?LAND                long (32-bit) bitwise and
+0x0640    ?C?LOR                 long (32-bit) bitwise or
+0x064d    ?C?LLDXDATA0           long (32-bit) load from xdata into r3-r0
+0x0659    ?C?PLDXDATA            general pointer load from xdata
+0x0662    ?C?PSTXDATA            general pointer store to xdata
+0x066b    ?C?CCASE              
+0x06cf   [?C_START]             
+0x83dd   (MAIN)                 

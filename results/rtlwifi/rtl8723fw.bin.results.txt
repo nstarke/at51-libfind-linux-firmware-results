@@ -1,0 +1,43 @@
+Address | Name                 | Description
+0x027e   [?C_START]             
+0x0529    ?C?CSTPTR              char (8-bit) store to general pointer
+0x053b    ?C?CSTOPTR             char (8-bit) store to general pointer with offset
+0x055d    ?C?IILDX              
+0x0573    ?C?ILDPTR              int (16-bit) load from general pointer
+0x059e    ?C?ILDOPTR             int (16-bit) load from general pointer with offset
+0x05d6    ?C?ISTPTR              int (16-bit) store to general pointer
+0x05f5    ?C?ISTOPTR             int (16-bit) store to general pointer with offset
+0x0622   [?C?LILDPTR]            long (32-bit) pre-increment load from general pointer
+0x0622   [?C?LLDIPTR]           
+0x0622   [?C?LLDPTR]             long (32-bit) load from general pointer
+0x0622   [?C?LLDPTR0]            long (32-bit) load from general pointer into r3-r0
+0x0622   [?C?PLDPTR]             general pointer load from general pointer
+0x0642    ?C?OFFXADD            
+0x064e    ?C?PLDXDATA            general pointer load from xdata
+0x0657    ?C?PLDIXDATA          
+0x066e    ?C?PSTXDATA            general pointer store to xdata
+0x0677    ?C?CCASE              
+0x069d    ?C?ICASE              
+0x0874    ?C?LLDIDATA            long (32-bit) load from idata (indirect ram access)
+0x0880    ?C?LLDXDATA            long (32-bit) load from xdata
+0x088c    ?C?LLDPDATA            long (32-bit) load from pdata (external ram)
+0x0898    ?C?LLDCODE             long (32-bit) load from code space
+0x4854   (?C?LLDIDATA)           long (32-bit) load from idata (indirect ram access)
+0x4854   (?C?LILDIDATA)          long (32-bit) pre-increment load from idata (indirect ram access)
+0x4854   (?C?LLDIIDATA)         
+0x4854   (?C?LLDIDATA0)          long (32-bit) load from idata (indirect ram access) into r3-r0
+0x4854   (?C?PLDIDATA)           general pointer load from idata (indirect ram access)
+0x4860   (?C?LLDXDATA)           long (32-bit) load from xdata
+0x4860   (?C?LILDXDATA)          long (32-bit) pre-increment load from xdata
+0x4860   (?C?LLDIXDATA)         
+0x4860   (?C?LLDXDATA0)          long (32-bit) load from xdata into r3-r0
+0x4860   (?C?PLDXDATA)           general pointer load from xdata
+0x486c   (?C?LLDPDATA)           long (32-bit) load from pdata (external ram)
+0x486c   (?C?LILDPDATA)          long (32-bit) pre-increment load from pdata (external ram)
+0x486c   (?C?LLDIPDATA)         
+0x486c   (?C?LLDPDATA0)          long (32-bit) load from pdata (external ram) into r3-r0
+0x486c   (?C?PLDPDATA)           general pointer load from pdata (external ram)
+0x4878   (?C?LLDCODE)            long (32-bit) load from code space
+0x4878   (?C?LLDCODE0)           long (32-bit) load from code space into r3-r0
+0x4878   (?C?PLDCODE)            general pointer load from code space
+0x5827   (MAIN)                 

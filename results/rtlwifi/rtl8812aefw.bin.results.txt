@@ -1,0 +1,18 @@
+Address | Name                 | Description
+0x09bf    ?C?IILDX              
+0x09d5    ?C?ILDPTR              int (16-bit) load from general pointer
+0x0a00    ?C?ILDOPTR             int (16-bit) load from general pointer with offset
+0x0a38    ?C?LADD                long (32-bit) addition
+0x0a45    ?C?LAND                long (32-bit) bitwise and
+0x0a52    ?C?LOR                 long (32-bit) bitwise or
+0x0a5f    ?C?ULCMP               unsigned long (32-bit) compare
+0x0a70    ?C?LLDXDATA            long (32-bit) load from xdata
+0x0a7c    ?C?LLDCODE             long (32-bit) load from code space
+0x0a8c    ?C?LLDXDATA0           long (32-bit) load from xdata into r3-r0
+0x0a98    ?C?LLDCODE0            long (32-bit) load from code space into r3-r0
+0x0aa8    ?C?OFFXADD            
+0x0ab4    ?C?PLDXDATA            general pointer load from xdata
+0x0abd    ?C?PSTXDATA            general pointer store to xdata
+0x0ac6    ?C?CCASE              
+0x0b2a   [?C_START]             
+0x46dd   (MAIN)                 

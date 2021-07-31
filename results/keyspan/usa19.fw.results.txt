@@ -1,0 +1,5 @@
+Address | Name                 | Description
+0x0ca8   (?C_START)             
+0x0ef9    ?C?CLDPTR              char (8-bit) load from general pointer
+0x0f1a    ?C?CLDOPTR             char (8-bit) load from general pointer with offset
+0x0f47    ?C?CSTPTR              char (8-bit) store to general pointer

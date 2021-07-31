@@ -1,0 +1,12 @@
+Address | Name                 | Description
+0x0890   (MAIN)                 
+0x0f44    ?C?IMUL                int (16-bit) multiply
+0x0f56    ?C?UIDIV               unsigned int (16-bit) division
+0x0fab    ?C?IILDX              
+0x0fc1    ?C?LLDXDATA            long (32-bit) load from xdata
+0x0fcd    ?C?LSTXDATA            long (32-bit) store to xdata
+0x0fd9    ?C?OFFXADD            
+0x0fe5    ?C?CCASE              
+0x100b    ?C?ICALL              
+0x100f    ?C?ICALL2             
+0x1325   [?C_START]             

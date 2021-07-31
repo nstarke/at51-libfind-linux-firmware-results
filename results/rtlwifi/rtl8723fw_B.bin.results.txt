@@ -1,0 +1,21 @@
+Address | Name                 | Description
+0x0240    ?C?CSTPTR              char (8-bit) store to general pointer
+0x0252    ?C?CSTOPTR             char (8-bit) store to general pointer with offset
+0x0274    ?C?IILDX              
+0x028a    ?C?ILDPTR              int (16-bit) load from general pointer
+0x02b5    ?C?ILDOPTR             int (16-bit) load from general pointer with offset
+0x02ed    ?C?ISTPTR              int (16-bit) store to general pointer
+0x030c    ?C?ISTOPTR             int (16-bit) store to general pointer with offset
+0x0339    ?C?LAND                long (32-bit) bitwise and
+0x0346    ?C?LOR                 long (32-bit) bitwise or
+0x0353    ?C?LNOT                long (32-bit) logical not
+0x0360    ?C?ULCMP               unsigned long (32-bit) compare
+0x0371    ?C?LLDXDATA            long (32-bit) load from xdata
+0x037d    ?C?LLDXDATA0           long (32-bit) load from xdata into r3-r0
+0x0389    ?C?OFFXADD            
+0x0395    ?C?PLDXDATA            general pointer load from xdata
+0x039e    ?C?PLDIXDATA          
+0x03b5    ?C?PSTXDATA            general pointer store to xdata
+0x03be    ?C?CCASE              
+0x0422   [?C_START]             
+0x482e   (MAIN)                 

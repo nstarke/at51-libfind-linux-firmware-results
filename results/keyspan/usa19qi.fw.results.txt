@@ -1,0 +1,4 @@
+Address | Name                 | Description
+0x0b28   (?C_START)             
+0x0f1e    ?C?CLDPTR              char (8-bit) load from general pointer
+0x0f37    ?C?CSTPTR              char (8-bit) store to general pointer

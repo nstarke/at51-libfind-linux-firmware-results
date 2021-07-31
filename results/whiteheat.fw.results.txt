@@ -1,0 +1,9 @@
+Address | Name                 | Description
+0x0c2a    ?C?WAIT18             
+0x0c2b    ?C?WAIT17             
+0x0c2d    ?C?WAIT15             
+0x0c2e    ?C?WAIT14             
+0x0c30    ?C?WAIT12             
+0x0c31    ?C?WAIT11             
+0x5b9e    ?C?LSTXDATA            long (32-bit) store to xdata
+0x982a   (?C_START)             

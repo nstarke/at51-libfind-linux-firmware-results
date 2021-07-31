@@ -1,0 +1,13 @@
+Address | Name                 | Description
+0x088d    ?C?LSUB                long (32-bit) subtraction
+0x089b    ?C?LAND                long (32-bit) bitwise and
+0x08a8    ?C?LOR                 long (32-bit) bitwise or
+0x08b5    ?C?ULCMP               unsigned long (32-bit) compare
+0x08c6    ?C?LLDXDATA            long (32-bit) load from xdata
+0x08d2    ?C?LLDXDATA0           long (32-bit) load from xdata into r3-r0
+0x08de    ?C?OFFXADD            
+0x08ea    ?C?PLDXDATA            general pointer load from xdata
+0x08f3    ?C?PSTXDATA            general pointer store to xdata
+0x08fc    ?C?CCASE              
+0x0960   [?C_START]             
+0x469d   (MAIN)                 

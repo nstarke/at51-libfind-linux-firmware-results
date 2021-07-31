@@ -1,0 +1,8 @@
+Address | Name                 | Description
+0x09d4   (?C_START)             
+0x0c82    ?C?WAIT18             
+0x0c83    ?C?WAIT17             
+0x0c85    ?C?WAIT15             
+0x0c86    ?C?WAIT14             
+0x0c88    ?C?WAIT12             
+0x0c89    ?C?WAIT11             

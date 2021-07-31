@@ -1,0 +1,57 @@
+Address | Name                 | Description
+0x1436    ?C?CLDPTR              char (8-bit) load from general pointer
+0x144f    ?C?CLDOPTR             char (8-bit) load from general pointer with offset
+0x147c    ?C?CSTPTR              char (8-bit) store to general pointer
+0x148e    ?C?CSTOPTR             char (8-bit) store to general pointer with offset
+0x14b0    ?C?IILDX              
+0x14c6    ?C?ILDIX              
+0x14dc    ?C?ILDOPTR             int (16-bit) load from general pointer with offset
+0x1514   [?C?IILDOPTR]           int (16-bit) pre-increment load from general pointer with offset
+0x1561    ?C?ISTOPTR             int (16-bit) store to general pointer with offset
+0x158e    ?C?OFFXADD            
+0x159a    ?C?PLDXDATA            general pointer load from xdata
+0x15a3    ?C?PLDIXDATA          
+0x15ba    ?C?PSTXDATA            general pointer store to xdata
+0x15c3   [?C?LILDOPTR]           long (32-bit) pre-increment load from general pointer with offset
+0x15c3   [?C?LLDOPTR]            long (32-bit) load from general pointer with offset
+0x15c3   [?C?LLDOPTR0]           long (32-bit) load from general pointer with offset into r3-r0
+0x15c3   [?C?PLDOPTR]            general pointer load from general pointer with offset
+0x15f3   [?C?PILDOPTR]           general pointer pre-increment load from general pointer with offset
+0x15f3   [?C?PLDIOPTR]          
+0x1625   [?C?PSTOPTR]            general pointer store to general pointer with offset
+0x167e    ?C?CCASE              
+0x16a4    ?C?PLDIDATA            general pointer load from idata (indirect ram access)
+0x16ad    ?C?PLDIIDATA          
+0x16bd    ?C?PSTIDATA            general pointer store to idata (indirect ram access)
+0x16c6    ?C?PLDPDATA            general pointer load from pdata (external ram)
+0x16cf    ?C?PLDIPDATA          
+0x16df    ?C?PSTPDATA            general pointer store to pdata (external ram)
+0x16e8    ?C?PLDCODE             general pointer load from code space
+0x2350   (MAIN)                 
+0x23a9   [?C_START]             
+0x26b0   (?C?IILDX)             
+0x279a   (?C?LILDXDATA)          long (32-bit) pre-increment load from xdata
+0x279a   (?C?LLDXDATA)           long (32-bit) load from xdata
+0x279a   (?C?LLDXDATA0)          long (32-bit) load from xdata into r3-r0
+0x279a   (?C?PLDXDATA)           general pointer load from xdata
+0x27a3   (?C?PILDXDATA)          general pointer pre-increment load from xdata
+0x27a3   (?C?PLDIXDATA)         
+0x27ba   (?C?PSTXDATA)           general pointer store to xdata
+0x28a4   (?C?LILDIDATA)          long (32-bit) pre-increment load from idata (indirect ram access)
+0x28a4   (?C?LLDIDATA)           long (32-bit) load from idata (indirect ram access)
+0x28a4   (?C?LLDIDATA0)          long (32-bit) load from idata (indirect ram access) into r3-r0
+0x28a4   (?C?PLDIDATA)           general pointer load from idata (indirect ram access)
+0x28ad   (?C?PILDIDATA)          general pointer pre-increment load from idata (indirect ram access)
+0x28ad   (?C?PLDIIDATA)         
+0x28bd   (?C?PSTIDATA)           general pointer store to idata (indirect ram access)
+0x28c6   (?C?LILDPDATA)          long (32-bit) pre-increment load from pdata (external ram)
+0x28c6   (?C?LLDPDATA)           long (32-bit) load from pdata (external ram)
+0x28c6   (?C?LLDPDATA0)          long (32-bit) load from pdata (external ram) into r3-r0
+0x28c6   (?C?PLDPDATA)           general pointer load from pdata (external ram)
+0x28cf   (?C?PILDPDATA)          general pointer pre-increment load from pdata (external ram)
+0x28cf   (?C?PLDIPDATA)         
+0x28df   (?C?PSTPDATA)           general pointer store to pdata (external ram)
+0x28e8   (?C?LLDCODE)            long (32-bit) load from code space
+0x28e8   (?C?LLDCODE0)           long (32-bit) load from code space into r3-r0
+0x28e8   (?C?PLDCODE)            general pointer load from code space
+0x35a9   (?C_START)             

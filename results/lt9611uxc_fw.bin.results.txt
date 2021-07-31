@@ -1,0 +1,53 @@
+Address | Name                 | Description
+0x0019    ?C?FPSUB               float subtraction
+0x0019    ?C?FPSUB517            float subtraction
+0x001d    ?C?FPADD               float addition
+0x001d    ?C?FPADD517            float addition
+0x0111    ?C?FPDIV               float division
+0x01ae    ?C?FCASTL             
+0x01b3    ?C?FCASTI             
+0x01b8    ?C?FCASTC             
+0x01ec    ?C?CASTF              
+0x0223    ?C?FPGETOPN2          
+0x023a    ?C?FPRESULT           
+0x024e    ?C?FPRESULT2          
+0x0258    ?C?FPNANRESULT        
+0x025f    ?C?FPUNDERFLOW        
+0x0262    ?C?FPOVERFLOW         
+0x026d    ?C?FPROUND            
+0x02aa    ?C?FPCONVERT          
+0x03af    ?C?FPMUL               float multiply
+0x04e5    ?C?FTNPWR             
+0x0525    ?C?CLDPTR              char (8-bit) load from general pointer
+0x053e    ?C?CLDOPTR             char (8-bit) load from general pointer with offset
+0x056b    ?C?CSTPTR              char (8-bit) store to general pointer
+0x057d    ?C?UIDIV               unsigned int (16-bit) division
+0x05d2    ?C?SIDIV               signed int (16-bit) division
+0x0608    ?C?IILDX              
+0x061e    ?C?ILDIX              
+0x0634    ?C?ILDPTR              int (16-bit) load from general pointer
+0x065f    ?C?ILDOPTR             int (16-bit) load from general pointer with offset
+0x0697    ?C?LMUL                long (32-bit) multiply
+0x0722    ?C?ULDIV               unsigned long (32-bit) division
+0x07b4    ?C?LNEG                long (32-bit) negation
+0x07c2    ?C?ULCMP               unsigned long (32-bit) compare
+0x07d3    ?C?ULSHR               unsigned long (32-bit) shift right
+0x07e6    ?C?LSHL                long (32-bit) shift left
+0x07f9    ?C?LLDOPTR             long (32-bit) load from general pointer with offset
+0x0829    ?C?LSTXDATA            long (32-bit) store to xdata
+0x0835    ?C?LSTKXDATA           long (32-bit) constant store to xdata
+0x0866    ?C?PLDIXDATA          
+0x087d    ?C?PSTXDATA            general pointer store to xdata
+0x0886    ?C?CCASE              
+0x08ac    ?C?LIMUL              
+0x08d9    ?C?MEMSET             
+0x0905    ?C?LLDIDATA            long (32-bit) load from idata (indirect ram access)
+0x0911    ?C?LLDXDATA            long (32-bit) load from xdata
+0x091d    ?C?LLDPDATA            long (32-bit) load from pdata (external ram)
+0x0929    ?C?LLDCODE             long (32-bit) load from code space
+0x1adf    _SPRINTF517           
+0x1ae5    _PRINTF517            
+0x36bb    ?C?LLDXDATA            long (32-bit) load from xdata
+0x370e   [?C_START]             
+0x42dd    _PUTCHAR              
+0x45be   (MAIN)                 

@@ -1,0 +1,11 @@
+Address | Name                 | Description
+0x12ca    ?C?CLDPTR              char (8-bit) load from general pointer
+0x12e3    ?C?CLDOPTR             char (8-bit) load from general pointer with offset
+0x1310    ?C?CSTPTR              char (8-bit) store to general pointer
+0x1322    ?C?CSTOPTR             char (8-bit) store to general pointer with offset
+0x1344    ?C?IILDX              
+0x135a    ?C?ILDOPTR             int (16-bit) load from general pointer with offset
+0x1392    ?C?CCASE              
+0x2573   (?C_START)             
+0x2576   [?C_START]             
+0x2cfa   (MAIN)                 
