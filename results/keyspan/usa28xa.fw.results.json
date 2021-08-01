@@ -1,0 +1,1 @@
+[{"location":3669,"name":"?C_START","goodness":"RefOnly","description":null},{"location":4330,"name":"?C?CLDPTR","goodness":"GoodSym","description":"char (8-bit) load from general pointer"},{"location":4408,"name":"?C?CSTPTR","goodness":"GoodSym","description":"char (8-bit) store to general pointer"}]
